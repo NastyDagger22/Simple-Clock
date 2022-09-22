@@ -11,7 +11,7 @@ root.title("Clock")
 
 # - The format of time, in which this case is hours, minutes, seconds, and whether its AM or PM.
 # - Config of text, it's text=string becasue string above label.config is the text that will be shown.
-# - Rechecks the time?*
+# - Rechecks the time each second (1000 milliseconds is a single second)
 
 def time():
     string=strftime('%H:%M:%S %p')
